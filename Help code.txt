@@ -1,0 +1,25 @@
+
+			//All_Servise_Room[0].Comment = "Мозг отеля. Места заседнания всей управляющей верхушки. Финансовая конура с разными бухгалтерами, заместителями и секретарями";
+			//All_Servise_Room[1].Comment = "Чистота и порядок отеля. Глажка, стирка, уборка. Такие незначительные, на первый взгляд, вещи. Однако - именно они являются залогом хорошего отеля";
+			//All_Servise_Room[2].Comment = "В горе и в радости наши бармены всегда с вами. Коньяк, виски, ром, джин, лучшие напитки со всех сторон света";
+			//All_Servise_Room[3].Comment = "'Victor' является одним из лучших приверженцев французской кухни. Старинные реценпты, свежайшие продукты, лучшие повора - всё это и есть 'Vicor'. Именно за это, он был удостоен единственной в СНГ звезды Мишлена";
+			//All_Servise_Room[4].Comment = "Ресторан 'Victor' не только роскошь и шик, а также внимание и забота для своих клиентов. Наш вежливый персонал сделает всё возможно, чтобы вы никогда не забыли ужин в нашем ресторане";
+			//All_Servise_Room[5].Comment = "Профессионально увлекайтесь спортом или же просто следите за своим зворовьем? Наш бассей примет всех, а тренера поможет самым малеьким поситителям или тем, кто всегда боялся плавать";
+			//All_Servise_Room[7].Comment = "Вежливые портье, швейцары и бэлбои. Услуги местного бара. Вам закажут такси, покажут дорогу в номер, а также, помогут донести вещи";
+			//All_Servise_Room[6].Comment = "Большой выбор тренажёров. Помощь наших инструкторов. А личный тренер поможет составить индивидуальную программу и диетическое меню";
+
+			//All_Servise_Room[1].Floor = 0;
+			//All_Servise_Room[1].Image = @"D:\ООП 4 сем\LabProject\LabProject\Images\ERoomStaff\techn.png";
+			//All_Servise_Room[1].Profit = 100000;
+			//All_Servise_Room[1].Upkeep = 50000;
+			//All_Servise_Room[1].Working_hours = "10:00 - 24:00";
+
+			//Living_Rooms[0].Image = @"D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\c1.png";
+			//Living_Rooms[1].Image = @"D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\c2.png";
+			//Living_Rooms[2].Image = @"D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\c3.png";
+			//Living_Rooms[3].Image = @"D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\c4.png";
+			//Living_Rooms[4].Image = @"D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\c5.png";
+			//Living_Rooms[5].Image = @"D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\pr3.png";
+			//Living_Rooms[6].Image = @"D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\pr2.png";
+			//Living_Rooms[7].Image = @"D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\l1.png";
+			//Living_Rooms[8].Image = @"D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\l2.png";

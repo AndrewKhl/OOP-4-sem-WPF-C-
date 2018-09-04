@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<ArrayOfEntertaimentRoom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntertaimentRoom xsi:type="SpesRoom">
+    <Status>false</Status>
+    <Comment>Соня, даваааай</Comment>
+    <Profit>0</Profit>
+    <Floor>3</Floor>
+    <Rating>0</Rating>
+    <Upkeep>0</Upkeep>
+    <Name>Cabinets</Name>
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="SpesRoom">
+    <Status>false</Status>
+    <Comment>Валентиина Пятровна</Comment>
+    <Profit>0</Profit>
+    <Floor>0</Floor>
+    <Rating>0</Rating>
+    <Upkeep>0</Upkeep>
+    <Name>Tehnical Building</Name>
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="RoomBarAndKitchen">
+    <Status>true</Status>
+    <Comment>Немножко подбухнуть</Comment>
+    <Profit>0</Profit>
+    <Floor>1</Floor>
+    <Rating>0</Rating>
+    <Upkeep>0</Upkeep>
+    <Name>Bar</Name>
+    <Menu />
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="RoomBarAndKitchen">
+    <Status>true</Status>
+    <Comment>Огрызки</Comment>
+    <Profit>0</Profit>
+    <Floor>1</Floor>
+    <Rating>0</Rating>
+    <Upkeep>0</Upkeep>
+    <Name>Kitchen</Name>
+    <Menu />
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="RoomRest">
+    <Status>true</Status>
+    <Comment>Бля, звезду Мишлен проебали</Comment>
+    <Profit>0</Profit>
+    <Floor>1</Floor>
+    <Rating>0</Rating>
+    <Upkeep>0</Upkeep>
+    <Name>Restaurant</Name>
+    <Menu />
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="SportRoomAndHoll">
+    <Status>true</Status>
+    <Comment>Ныр ныр</Comment>
+    <Profit>0</Profit>
+    <Floor>2</Floor>
+    <Rating>0</Rating>
+    <Upkeep>0</Upkeep>
+    <Name>Pool</Name>
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="SportRoomAndHoll">
+    <Status>true</Status>
+    <Comment>Ко-ко-ко</Comment>
+    <Profit>0</Profit>
+    <Floor>2</Floor>
+    <Rating>0</Rating>
+    <Upkeep>0</Upkeep>
+    <Name>Gym</Name>
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="SportRoomAndHoll">
+    <Status>true</Status>
+    <Comment>Джекавич, бядааа</Comment>
+    <Profit>0</Profit>
+    <Floor>1</Floor>
+    <Rating>0</Rating>
+    <Upkeep>0</Upkeep>
+    <Name>Hall</Name>
+  </EntertaimentRoom>
+</ArrayOfEntertaimentRoom>

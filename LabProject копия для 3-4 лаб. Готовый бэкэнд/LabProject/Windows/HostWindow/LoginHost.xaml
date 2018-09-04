@@ -1,0 +1,40 @@
+﻿<Window x:Class="LabProject.LoginHost"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabProject"
+        mc:Ignorable="d"
+        Title="LoginHost" Height="200" Width="400">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Margin" Value="20, 17, 20, 20"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="Width" Value="250"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <TextBlock Text="ФИО" Margin="20, 17, 82, 20"/>
+            <TextBox x:Name="Name"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+            <TextBlock Text="Номер Комнаты"/>
+            <TextBox x:Name="Number"/>
+        </StackPanel>
+
+        <Button Grid.Row="3" Height="28" Width="100" HorizontalAlignment="Center" Margin="0, 10" Content="OK" Click="LoginSystem"/>
+    </Grid>
+</Window>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ArrayOfPersonal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Personal>
+    <Name>Дядя Боря</Name>
+    <Bithday />
+    <Comments />
+    <Photo />
+    <Salary>300</Salary>
+  </Personal>
+  <Personal>
+    <Name>Виктор Баринов</Name>
+    <Bithday />
+    <Comments />
+    <Photo />
+    <Salary>1000</Salary>
+  </Personal>
+  <Personal>
+    <Name>Костя</Name>
+    <Bithday />
+    <Comments />
+    <Photo />
+    <Salary>400</Salary>
+  </Personal>
+  <Personal>
+    <Name>Джекович</Name>
+    <Job>Hall</Job>
+    <Bithday />
+    <Comments />
+    <Photo />
+    <Salary>2000</Salary>
+  </Personal>
+</ArrayOfPersonal>

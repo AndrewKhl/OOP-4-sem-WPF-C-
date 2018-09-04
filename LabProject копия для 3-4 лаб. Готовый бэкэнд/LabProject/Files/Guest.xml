@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ArrayOfGuest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Guest>
+    <Name>Хлопцев Андрей Алексеевич</Name>
+    <Number_Room>302</Number_Room>
+    <Bithday>05.08.1999</Bithday>
+    <Comments />
+    <Photo />
+    <Data_in>11.03.2018</Data_in>
+    <Data_out>30.03.2018</Data_out>
+  </Guest>
+  <Guest>
+    <Name>Юшкевич Вероника Васильевна</Name>
+    <Number_Room>201</Number_Room>
+    <Bithday />
+    <Comments />
+    <Photo />
+    <Data_in>13.03.2018</Data_in>
+    <Data_out>31.03.2018</Data_out>
+  </Guest>
+  <Guest>
+    <Name>При Ро Да</Name>
+    <Number_Room>101</Number_Room>
+    <Bithday>13.12.1999</Bithday>
+    <Comments />
+    <Photo />
+    <Data_in>00.00.0000</Data_in>
+    <Data_out>00.00.0000</Data_out>
+  </Guest>
+</ArrayOfGuest>

@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<ArrayOfApartament xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Apartament>
+    <use>false</use>
+    <Service />
+    <Price>100</Price>
+    <Number>101</Number>
+    <Capacity>1</Capacity>
+    <Floor>1</Floor>
+    <Status>Common</Status>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\c1.png</Image>
+  </Apartament>
+  <Apartament>
+    <use>false</use>
+    <Service />
+    <Price>100</Price>
+    <Number>102</Number>
+    <Capacity>1</Capacity>
+    <Floor>1</Floor>
+    <Status>Common</Status>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\c2.png</Image>
+  </Apartament>
+  <Apartament>
+    <use>false</use>
+    <Service />
+    <Price>200</Price>
+    <Number>103</Number>
+    <Capacity>2</Capacity>
+    <Floor>2</Floor>
+    <Status>Common</Status>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\c3.png</Image>
+  </Apartament>
+  <Apartament>
+    <use>false</use>
+    <Service>
+      <string>Бар</string>
+    </Service>
+    <Price>280</Price>
+    <Number>104</Number>
+    <Capacity>3</Capacity>
+    <Floor>2</Floor>
+    <Status>Common</Status>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\c4.png</Image>
+  </Apartament>
+  <Apartament>
+    <use>true</use>
+    <Service />
+    <Host>
+      <Name>Юшкевич Вероника Васильевна</Name>
+      <Number_Room>201</Number_Room>
+      <Bithday />
+      <Comments />
+      <Photo />
+      <Data_in>13.03.2018</Data_in>
+      <Data_out>31.03.2018</Data_out>
+    </Host>
+    <Price>400</Price>
+    <Number>201</Number>
+    <Capacity>2</Capacity>
+    <Floor>2</Floor>
+    <Status>Pre-Luxs</Status>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\c5.png</Image>
+  </Apartament>
+  <Apartament>
+    <use>false</use>
+    <Service />
+    <Price>400</Price>
+    <Number>202</Number>
+    <Capacity>2</Capacity>
+    <Floor>2</Floor>
+    <Status>Pre-Luxs</Status>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\pr3.png</Image>
+  </Apartament>
+  <Apartament>
+    <use>false</use>
+    <Service />
+    <Price>500</Price>
+    <Number>203</Number>
+    <Capacity>3</Capacity>
+    <Floor>3</Floor>
+    <Status>Pre-Luxs</Status>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\pr2.png</Image>
+  </Apartament>
+  <Apartament>
+    <use>false</use>
+    <Service />
+    <Price>1000</Price>
+    <Number>301</Number>
+    <Capacity>3</Capacity>
+    <Floor>2</Floor>
+    <Status>Luxs</Status>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\l1.png</Image>
+  </Apartament>
+  <Apartament>
+    <use>true</use>
+    <Service />
+    <Host>
+      <Name>Хлопцев Андрей Алексеевич</Name>
+      <Number_Room>302</Number_Room>
+      <Bithday>05.08.1999</Bithday>
+      <Comments />
+      <Photo />
+      <Data_in>11.03.2018</Data_in>
+      <Data_out>30.03.2018</Data_out>
+    </Host>
+    <Price>1500</Price>
+    <Number>302</Number>
+    <Capacity>4</Capacity>
+    <Floor>3</Floor>
+    <Status>Luxs</Status>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\LRoom\l2.png</Image>
+  </Apartament>
+</ArrayOfApartament>

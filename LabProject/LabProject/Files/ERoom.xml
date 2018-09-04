@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<ArrayOfEntertaimentRoom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntertaimentRoom xsi:type="SpesRoom">
+    <Service />
+    <Staff>
+      <Personal>
+        <IsMain>true</IsMain>
+        <Name>Галанова Элеонора Андреевна</Name>
+        <Job>Cabinets</Job>
+        <Bithday>17.11.1972</Bithday>
+        <Comments>Жёсткая и бескомпромиссная Элеонора - владелица данного роскошного отеля.</Comments>
+        <Photo>D:\ООП 4 сем\LabProject\LabProject\Images\PhotoStaff\Eleonora.png</Photo>
+        <Salary>0</Salary>
+      </Personal>
+    </Staff>
+    <Main>
+      <IsMain>true</IsMain>
+      <Name>Галанова Элеонора Андреевна</Name>
+      <Job>Cabinets</Job>
+      <Bithday>17.11.1972</Bithday>
+      <Comments>Жёсткая и бескомпромиссная Элеонора - владелица данного роскошного отеля.</Comments>
+      <Photo>D:\ООП 4 сем\LabProject\LabProject\Images\PhotoStaff\Eleonora.png</Photo>
+      <Salary>0</Salary>
+    </Main>
+    <Status>false</Status>
+    <Comment>Мозг отеля. Места заседнания всей управляющей верхушки. Финансовая конура с разными бухгалтерами, заместителями и секретарями</Comment>
+    <Working_hours>-</Working_hours>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\ERoomStaff\Cabinets.png</Image>
+    <Profit>0</Profit>
+    <Floor>3</Floor>
+    <Rating>0</Rating>
+    <Upkeep>20000</Upkeep>
+    <Name>Cabinets</Name>
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="SpesRoom">
+    <Service />
+    <Staff>
+      <Personal>
+        <IsMain>true</IsMain>
+        <Name>Кондратова Валентина Петровна</Name>
+        <Job>TehnicalBuilding</Job>
+        <Bithday>12.09.1970</Bithday>
+        <Comments>Старшая горничная. Держит в кулаке всех горничных «Элеона» и знает, в каком номере течет кран, а кто любит прихватить с собой лишнюю баночку с шампунем.</Comments>
+        <Photo>D:\ООП 4 сем\LabProject\LabProject\Images\PhotoStaff\Valentina.png</Photo>
+        <Salary>1000</Salary>
+      </Personal>
+    </Staff>
+    <Main>
+      <IsMain>true</IsMain>
+      <Name>Кондратова Валентина Петровна</Name>
+      <Job>TehnicalBuilding</Job>
+      <Bithday>12.09.1970</Bithday>
+      <Comments>Старшая горничная. Держит в кулаке всех горничных «Элеона» и знает, в каком номере течет кран, а кто любит прихватить с собой лишнюю баночку с шампунем.</Comments>
+      <Photo>D:\ООП 4 сем\LabProject\LabProject\Images\PhotoStaff\Valentina.png</Photo>
+      <Salary>1000</Salary>
+    </Main>
+    <Status>false</Status>
+    <Comment>Чистота и порядок отеля. Глажка, стирка, уборка. Такие незначительные, на первый взгляд, вещи. Однако - именно они являются залогом хорошего отеля</Comment>
+    <Working_hours>10:00 - 24:00</Working_hours>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\ERoomStaff\techn.png</Image>
+    <Profit>100000</Profit>
+    <Floor>0</Floor>
+    <Rating>0</Rating>
+    <Upkeep>50000</Upkeep>
+    <Name>TehnicalBuilding</Name>
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="RoomRestAndBar">
+    <Service />
+    <Staff>
+      <Personal>
+        <IsMain>true</IsMain>
+        <Name>Коломов Константин Александрович</Name>
+        <Job>Bar</Job>
+        <Bithday>05.08.1979</Bithday>
+        <Comments />
+        <Photo />
+        <Salary>400</Salary>
+      </Personal>
+    </Staff>
+    <Main>
+      <IsMain>true</IsMain>
+      <Name>Коломов Константин Александрович</Name>
+      <Job>Bar</Job>
+      <Bithday>05.08.1979</Bithday>
+      <Comments />
+      <Photo />
+      <Salary>400</Salary>
+    </Main>
+    <Status>true</Status>
+    <Comment>В горе и в радости наши бармены всегда с вами. Коньяк, виски, ром, джин, лучшие напитки со всех сторон света</Comment>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\ERoomStaff\bar.png</Image>
+    <Profit>50000</Profit>
+    <Floor>1</Floor>
+    <Rating>0</Rating>
+    <Upkeep>30000</Upkeep>
+    <Name>Bar</Name>
+    <Menu>
+      <string>Виски с колой</string>
+    </Menu>
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="RoomKitchen">
+    <Service />
+    <Staff>
+      <Personal>
+        <IsMain>true</IsMain>
+        <Name>Баринов Виктор Петрович</Name>
+        <Job>Kitchen</Job>
+        <Bithday>04.07.1957</Bithday>
+        <Comments>Лучший шеф-повар Москвы. На кухне для него нет ничего невозможного. И ресторан, названный в его честь, прямое тому доказательство. Первый повар в СНГ, удостоенный "Звезды Мишлен"</Comments>
+        <Photo>D:\ООП 4 сем\LabProject\LabProject\Images\PhotoStaff\Barinov.png</Photo>
+        <Salary>32000</Salary>
+      </Personal>
+    </Staff>
+    <Main>
+      <IsMain>true</IsMain>
+      <Name>Баринов Виктор Петрович</Name>
+      <Job>Kitchen</Job>
+      <Bithday>04.07.1957</Bithday>
+      <Comments>Лучший шеф-повар Москвы. На кухне для него нет ничего невозможного. И ресторан, названный в его честь, прямое тому доказательство. Первый повар в СНГ, удостоенный "Звезды Мишлен"</Comments>
+      <Photo>D:\ООП 4 сем\LabProject\LabProject\Images\PhotoStaff\Barinov.png</Photo>
+      <Salary>32000</Salary>
+    </Main>
+    <Status>true</Status>
+    <Comment>'Victor' является одним из лучших приверженцев французской кухни. Старинные реценпты, свежайшие продукты, лучшие повора - всё это и есть 'Vicor'. Именно за это, он был удостоен единственной в СНГ звезды Мишлена</Comment>
+    <Working_hours>10:00 - 24:00</Working_hours>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\ERoomStaff\kitchen.png</Image>
+    <Profit>0</Profit>
+    <Floor>1</Floor>
+    <Rating>0</Rating>
+    <Upkeep>1000000</Upkeep>
+    <Name>Kitchen</Name>
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="RoomRestAndBar">
+    <Service>
+      <string>Банкет</string>
+      <string>Заказ столика</string>
+    </Service>
+    <Staff>
+      <Personal>
+        <IsMain>true</IsMain>
+        <Name>Гончарова Виктория Сергеевна</Name>
+        <Job>Restaurant</Job>
+        <Bithday>10.04.1979</Bithday>
+        <Comments>Виктория — деловая и целеустремлённая девушка. Главная её цель — это поднять свой ресторан, чтобы он стал более популярным и известным. Карьера Вике важнее, чем личная жизнь.</Comments>
+        <Photo>D:\ООП 4 сем\LabProject\LabProject\Images\PhotoStaff\Victoria.png</Photo>
+        <Salary>1500</Salary>
+      </Personal>
+    </Staff>
+    <Main>
+      <IsMain>true</IsMain>
+      <Name>Гончарова Виктория Сергеевна</Name>
+      <Job>Restaurant</Job>
+      <Bithday>10.04.1979</Bithday>
+      <Comments>Виктория — деловая и целеустремлённая девушка. Главная её цель — это поднять свой ресторан, чтобы он стал более популярным и известным. Карьера Вике важнее, чем личная жизнь.</Comments>
+      <Photo>D:\ООП 4 сем\LabProject\LabProject\Images\PhotoStaff\Victoria.png</Photo>
+      <Salary>1500</Salary>
+    </Main>
+    <Status>true</Status>
+    <Comment>Ресторан 'Victor' не только роскошь и шик, а также внимание и забота для своих клиентов. Наш вежливый персонал сделает всё возможно, чтобы вы никогда не забыли ужин в нашем ресторане</Comment>
+    <Working_hours>09:00 - 01:00</Working_hours>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\ERoomStaff\rest.png</Image>
+    <Profit>3000000</Profit>
+    <Floor>1</Floor>
+    <Rating>0</Rating>
+    <Upkeep>120000</Upkeep>
+    <Name>Restaurant</Name>
+    <Menu>
+      <string>Картошечка</string>
+    </Menu>
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="SportRoomAndHoll">
+    <Service />
+    <Staff />
+    <Status>true</Status>
+    <Comment>Профессионально увлекайтесь спортом или же просто следите за своим зворовьем? Наш бассей примет всех, а тренера поможет самым малеьким поситителям или тем, кто всегда боялся плавать</Comment>
+    <Working_hours>06:00 - 18:00</Working_hours>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\ERoomStaff\pool.png</Image>
+    <Profit>8000</Profit>
+    <Floor>2</Floor>
+    <Rating>0</Rating>
+    <Upkeep>20000</Upkeep>
+    <Name>Pool</Name>
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="SportRoomAndHoll">
+    <Service />
+    <Staff />
+    <Status>true</Status>
+    <Comment>Большой выбор тренажёров. Помощь наших инструкторов. А личный тренер поможет составить индивидуальную программу и диетическое меню</Comment>
+    <Working_hours>06:00 - 18:00</Working_hours>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\ERoomStaff\gym.png</Image>
+    <Profit>25000</Profit>
+    <Floor>2</Floor>
+    <Rating>0</Rating>
+    <Upkeep>10000</Upkeep>
+    <Name>Gym</Name>
+  </EntertaimentRoom>
+  <EntertaimentRoom xsi:type="SportRoomAndHoll">
+    <Service />
+    <Staff />
+    <Status>true</Status>
+    <Comment>Вежливые портье, швейцары и бэлбои. Услуги местного бара. Вам закажут такси, покажут дорогу в номер, а также, помогут донести вещи</Comment>
+    <Working_hours>00:00 - 24:00</Working_hours>
+    <Image>D:\ООП 4 сем\LabProject\LabProject\Images\ERoomStaff\hall.png</Image>
+    <Profit>5000</Profit>
+    <Floor>1</Floor>
+    <Rating>0</Rating>
+    <Upkeep>30000</Upkeep>
+    <Name>Hall</Name>
+  </EntertaimentRoom>
+</ArrayOfEntertaimentRoom>

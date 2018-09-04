@@ -1,0 +1,29 @@
+﻿<Window x:Class="LabProject.RoomInfo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabProject"
+        mc:Ignorable="d"
+        Title="RoomInfo" Height="950" Width="620">
+    
+    <Grid DataContext="{Binding IsRoom}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="100"/>
+      
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="{Binding Path=Name, UpdateSourceTrigger=PropertyChanged}" FontSize="72" HorizontalAlignment="Center" VerticalAlignment="Center" FontStyle="Italic" FontWeight="Bold"/>
+
+        <TextBlock Grid.Row="1" Text="{Binding Path=Working_hours, ValidatesOnExceptions=True, StringFormat={}Находится на {0} этаже.}" HorizontalAlignment="Center" FontSize="16"/>
+        <TextBlock Grid.Row="2" Text="{Binding Path=Floor, ValidatesOnExceptions=True, StringFormat={}Находится на {0} этаже.}" HorizontalAlignment="Center" FontSize="16"/>
+        <Image Grid.Row="3" Source="{Binding Path=Image}" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10"/>
+        <TextBlock Grid.Row="4"  Text="{Binding Path=Comment}" TextWrapping="Wrap" FontSize="20" VerticalAlignment="Center" Margin="10, 20" FontStyle="Italic"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<ArrayOfPersonal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Personal>
+    <IsMain>false</IsMain>
+    <Name>Дядя Боря</Name>
+    <Job>TehnicalBuilding</Job>
+    <Bithday />
+    <Comments />
+    <Photo />
+    <Salary>300</Salary>
+  </Personal>
+  <Personal>
+    <IsMain>true</IsMain>
+    <Name>Баринов Виктор Петрович</Name>
+    <Job>Kitchen</Job>
+    <Bithday>04.07.1957</Bithday>
+    <Comments>Лучший шеф-повар Москвы. На кухне для него нет ничего невозможного. И ресторан, названный в его честь, прямое тому доказательство. Первый повар в СНГ, удостоенный "Звезды Мишлен"</Comments>
+    <Photo>D:\ООП 4 сем\LabProject\LabProject\Images\PhotoStaff\Barinov.png</Photo>
+    <Salary>32000</Salary>
+  </Personal>
+  <Personal>
+    <IsMain>true</IsMain>
+    <Name>Костя</Name>
+    <Job>Bar</Job>
+    <Bithday />
+    <Comments />
+    <Photo />
+    <Salary>400</Salary>
+  </Personal>
+  <Personal>
+    <IsMain>true</IsMain>
+    <Name>Сиятвинда Михаил Джекович</Name>
+    <Job>Hall</Job>
+    <Bithday>05.12.1973</Bithday>
+    <Comments>Управляющий отеля. Прошел путь от швейцара до начальника. Профи, каких поискать, очень дорожит репутацией отеля и готов сделать все, чтобы гостям было комфортно. Любит все контролировать и может решить любую проблему.</Comments>
+    <Photo>D:\ООП 4 сем\LabProject\LabProject\Images\PhotoStaff\Djekovich.png</Photo>
+    <Salary>2000</Salary>
+  </Personal>
+  <Personal>
+    <IsMain>true</IsMain>
+    <Name>Валентина Петровна</Name>
+    <Job>TehnicalBuilding</Job>
+    <Bithday>12.09.1970</Bithday>
+    <Comments>Старшая горничная. Держит в кулаке всех горничных «Элеона» и знает, в каком номере течет кран, а кто любит прихватить с собой лишнюю баночку с шампунем.</Comments>
+    <Photo>D:\ООП 4 сем\LabProject\LabProject\Images\PhotoStaff\Valentina.png</Photo>
+    <Salary>1000</Salary>
+  </Personal>
+  <Personal>
+    <IsMain>false</IsMain>
+    <Name>Даша Канаева</Name>
+    <Job>Hall</Job>
+    <Bithday />
+    <Comments />
+    <Photo />
+    <Salary>0</Salary>
+  </Personal>
+  <Personal>
+    <IsMain>true</IsMain>
+    <Name>Гончарова Виктория Сергеевна</Name>
+    <Job>Restaurant</Job>
+    <Bithday>10.04.1979</Bithday>
+    <Comments>Виктория — деловая и целеустремлённая девушка. Главная её цель — это поднять свой ресторан, чтобы он стал более популярным и известным. Карьера Вике важнее, чем личная жизнь.</Comments>
+    <Photo>D:\ООП 4 сем\LabProject\LabProject\Images\PhotoStaff\Victoria.png</Photo>
+    <Salary>1500</Salary>
+  </Personal>
+  <Personal>
+    <IsMain>true</IsMain>
+    <Name>Галанова Элеонора Андреевна</Name>
+    <Job>Cabinets</Job>
+    <Bithday>17.11.1972</Bithday>
+    <Comments>Жёсткая и бескомпромиссная Элеонора - владелица данного роскошного отеля.</Comments>
+    <Photo>D:\ООП 4 сем\LabProject\LabProject\Images\PhotoStaff\Eleonora.png</Photo>
+    <Salary>0</Salary>
+  </Personal>
+</ArrayOfPersonal>

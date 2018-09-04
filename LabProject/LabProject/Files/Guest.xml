@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ArrayOfGuest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Guest>
+    <Name>Шимановская Полина Николаевна</Name>
+    <Number_Room>104</Number_Room>
+    <Bithday>15.01.1999</Bithday>
+    <Comments />
+    <Photo />
+    <Data_in>29.05.2018</Data_in>
+    <Data_out>29.07.2018</Data_out>
+  </Guest>
+  <Guest>
+    <Name>Хлопцев Андрей Алексеевич</Name>
+    <Number_Room>302</Number_Room>
+    <Bithday>05.08.1999</Bithday>
+    <Comments>Я хозяин гостиницы</Comments>
+    <Photo />
+    <Data_in>28.05.2018</Data_in>
+    <Data_out>15.06.2018</Data_out>
+  </Guest>
+  <Guest>
+    <Name>Лукичёв Артур Андреевич</Name>
+    <Number_Room>101</Number_Room>
+    <Bithday>13.02.1998</Bithday>
+    <Comments>ВСЁ</Comments>
+    <Photo />
+    <Data_in>28.05.2018</Data_in>
+    <Data_out>06.07.2018</Data_out>
+  </Guest>
+  <Guest>
+    <Name>Шимановская Полина Николаевна</Name>
+    <Number_Room>203</Number_Room>
+    <Bithday>15.01.1999</Bithday>
+    <Comments>У неё нету денег</Comments>
+    <Photo />
+    <Data_in>31.05.2018</Data_in>
+    <Data_out>27.06.2018</Data_out>
+  </Guest>
+</ArrayOfGuest>

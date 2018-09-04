@@ -1,0 +1,63 @@
+﻿<Window x:Class="LabProject.CreateStaffAdmin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabProject"
+        mc:Ignorable="d"
+        Title="CreateStaffAdmin" Height="950" Width="600">
+    <Grid DataContext="{Binding IsPerson}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="420"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="1" Grid.Row="0" Text="Анкета"/>
+        <TextBlock Grid.Column="0" Grid.Row="1" Text="ФИО"/>
+        <TextBlock Grid.Column="0" Grid.Row="2" Text="Дата рождения"/>
+        <TextBlock Grid.Column="0" Grid.Row="3" Text="Фото"/>
+        <TextBlock Grid.Column="0" Grid.Row="4" Text="Зарабатная плата"/>
+        <TextBlock Grid.Column="0" Grid.Row="5" Text="Место работы"/>
+        <TextBlock Grid.Column="0" Grid.Row="6" Text="Справка"/>
+
+        <TextBox Grid.Column="1" Grid.Row="1" Text="{Binding Path=Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Path=Bithday, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBox Grid.Column="1" Grid.Row="3" Text="{Binding Path=Photo, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBox Grid.Column="1" Grid.Row="4" Text="{Binding Path=Salary, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+        <TextBox Grid.Column="1" Grid.Row="6" TextWrapping="Wrap" Text="{Binding Path=Comments, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Grid Grid.Column="1" Grid.Row="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <RadioButton Content="Bar" Grid.Column="0" Grid.Row="1" GroupName="Job"/>
+            <RadioButton Content="Restaraunt" Grid.Column="0" Grid.Row="2" GroupName="Job"/>
+            <RadioButton Content="Pool" Grid.Column="0" Grid.Row="3" GroupName="Job"/>
+            <RadioButton Content="Gym" Grid.Column="1" Grid.Row="1" GroupName="Job"/>
+            <RadioButton Content="Kitchen" Grid.Column="1" Grid.Row="2" GroupName="Job"/>
+            <RadioButton Content="Hall" Grid.Column="1" Grid.Row="3" GroupName="Job"/>
+        </Grid>
+
+    <Button HorizontalAlignment="Right" Grid.Column="1" Grid.Row="7" Height="40" Width="100" Click="Add_Staff"/>
+    </Grid>
+</Window>
